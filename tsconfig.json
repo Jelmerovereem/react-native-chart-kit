@@ -23,5 +23,6 @@
     "noErrorTruncation": true,
     "jsx": "react-native",
     "skipLibCheck": true
-  }
+  },
+  "exclude": ["dist"]
 }

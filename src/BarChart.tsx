@@ -57,8 +57,8 @@ class BarChart extends AbstractChart<BarChartProps, BarChartState> {
     return barPercentage;
   };
 
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     // Unique per chart instance
     this.chartPrefix = Math.random()
       .toString(36)
